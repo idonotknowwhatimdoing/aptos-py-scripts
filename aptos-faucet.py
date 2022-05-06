@@ -8,6 +8,7 @@
 from ctypes import addressof
 import requests
 import argparse
+import time
 from typing import Any, Dict, Optional
 
 TESTNET_URL = "https://fullnode.devnet.aptoslabs.com"
